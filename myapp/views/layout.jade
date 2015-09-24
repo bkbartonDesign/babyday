@@ -2,7 +2,17 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='css/style.css')
+    script(src='/js/bower_components/jquery/dist/jquery.js')
+    script(src='/js/pubapp.js')    
   body
     block content
-    include inc/list
+    img(src="img/yro1w.jpg")
+    include partial/nav
+    include partial/list
+    include partial/bottleEntry
+   
+  // script(src='/js/bower_components/jquery/dist/jquery.js')
+  // script(src='/js/app.js')
+   
+  
