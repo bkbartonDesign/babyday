@@ -1,0 +1,13 @@
+//p #{btlList}
+table
+    thead
+        th ounces
+        th given at
+        th comments
+    tbody
+        each feeding in btlList
+            tr
+                td= feeding.oz
+                td= moment(feeding.dttm).format("MM/DD/YYYY hh:mm")
+                //td= feeding.dttm
+                td= feeding.comments                

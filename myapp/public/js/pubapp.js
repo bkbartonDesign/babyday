@@ -4,12 +4,11 @@ $(function(){
        var values = $(this).serialize();
        $.ajax({
             //url:"./hi",
-           url:"/addBtl",
+           url:"/bottle/addBtl",
            type:"POST",
            data:values
        }).success(function(res){
-           console.log(res);
+           console.log("JSON FROM NODE!!",res);
        });
    });
-    
 });
