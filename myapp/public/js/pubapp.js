@@ -2,6 +2,7 @@ $(function(){
    $("#addBtl").submit(function(ev){
        //ev.preventDefault();
        var values = $(this).serialize();
+       console.log(values);
        $.ajax({
             //url:"./hi",
            url:"/bottle/addBtl",

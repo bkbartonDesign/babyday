@@ -16,6 +16,7 @@ router.post('/addBtl',function(req,res,next){
     };    
 
     if(req.body){
+        console.log(req.body);
         if(req.body.oz!=""){ btlObj.oz = req.body.oz; }
         if(req.body.dttm!=""){ btlObj.dttm = new Date(req.body.dttm); }
         if(req.body.dttmFin!=""){ btlObj.dttmFin = new Date(req.body.dttmFin); }

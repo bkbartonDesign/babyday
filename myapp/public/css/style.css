@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px Helvetica, Arial, sans-serif;
 }
 
@@ -9,4 +8,21 @@ a {
 
 .nav{
   padding:0 5px;
+}
+#addBtl > div{
+  display:inline-block;
+}
+
+#addBtl .btl label{
+  display:block;
+}
+
+#addBtl input,#addBtl label{margin-left:5px;}
+
+#addBtl .btl-amount input{
+  width:50px;
+}
+
+table.btl-list{
+  border:1px solid black;
 }

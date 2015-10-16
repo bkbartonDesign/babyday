@@ -1,18 +1,11 @@
-form#addBtl
- label(for="oz") Bottle Ammount in oz.
- br
- input(type="number" name="oz" required)
- br
- label(for="dttm") Gave bottle at...
- br
- input(type="time" name="dttm" value="")
- br
- label(for="dttm") Finished bottle at...
- br
- input(type="time" name="dttmFin")
- br
- label(for="comment") Comment
- br
- input(type="text" name="comments")
- br
- input(type="submit" name="bottle" value="Add Bottle Feeding")
+form(id="addBtl" class="form-inline row")
+ div(class="form-group btl btl-amount col-md-2 col-sm-2")
+  label(for="oz") Bottle Amount 
+  input(type="number" name="oz" id="oz" required placeholder="")
+ div(class="form-group btl btl-given col-md-2 col-sm-2")
+  label(for="dttm") Time given
+  input(type="time" name="dttm" id="dttm" value="")
+ div(class="form-group btl btl-comments col-md-3 col-sm-3")
+  label(for="comments") Comments
+  input(type="text" name="comments" id="comments")
+ input(type="submit" class="btl btl-submit btn btn-default col-md-2 col-sm-2" name="bottle" value="Add Bottle")

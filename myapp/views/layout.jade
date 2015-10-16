@@ -3,13 +3,15 @@ html
   head
     title= title
     link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
     script(src='/js/bower_components/jquery/dist/jquery.js')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
     script(src='/js/pubapp.js')    
   body
     block content
-    include partial/nav
-    include partial/list
     include partial/bottleEntry
+    include partial/list
+    
    
   // script(src='/js/bower_components/jquery/dist/jquery.js')
   // script(src='/js/app.js')

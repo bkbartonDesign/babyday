@@ -12,11 +12,8 @@ var bottleFeedings = new btlProvider.Bottle();
 /* GET home page. */
 router.get('/', function(req, res, next) {
     bottleFeedings.findAll(function(error, btlList){
-        res.render('index', { title: 'Express',btlList:btlList });
+        res.render('index', { title: "Baby's Day App",btlList:btlList });
     })  
-    // var btlList = bottleFeedings.findAll();
-    // console.dir(btlList);
-  
 });
 
 router.get('/hi',function(req,res,next){

@@ -8,3 +8,4 @@ Links
 - Mongo Crud Operations - http://docs.mongodb.org/manual/core/crud/
 - Mongo app example - http://blog.ijasoneverett.com/2013/03/a-sample-app-with-node-js-express-and-mongodb-part-1/
 - Mongoose - http://mongoosejs.com/docs/models.html
+- GitHub help = https://www.quora.com/How-do-I-commit-changes-to-GitHub-within-Cloud9-IDE
